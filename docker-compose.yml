@@ -1,0 +1,8 @@
+version: '2'
+services:
+  foreman:
+    hostname: foreman.local
+    image: foreman/foreman:nightly
+    ports:
+      - "8080:80"
+      - "8443:443"
